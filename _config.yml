@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 刘怡轩
+title: Xuan's Blog
 subtitle: 技术博客，记录文章和生活点滴
-description: 技术博客，生活记录
+description: 一位敲键盘的行者
 keywords:
 author: 刘怡轩
 language: zh-Hans
@@ -81,3 +81,10 @@ deploy:
   type: git
   repo: git@github.com:ly-xuan/ly-xuan.github.io.git
   branch: master
+
+#search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
